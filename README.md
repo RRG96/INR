@@ -1,5 +1,5 @@
 # INR
-Instalar Raspbian
+## Instalar Raspbian
 
 Pasos:
 Descargar Raspbian Lite: **https://www.raspberrypi.org/downloads/raspbian/**
