@@ -56,6 +56,7 @@ Clonar cada una de las carpetas de las librerías de git con el comando `git clo
 - https://github.com/pyusb/pyusb.git
 - https://github.com/mne-tools/mne-python.git
 - https://github.com/bbci/mushu.git
+
 Verificar que cada una de las carpetas se encuentren en la Raspberry Pi con el comando `ls –l`
 Ingresar a cada una de las carpetas con el comando `cd nombredelacarpeta`
 Dentro de cada una de las carpetas correr el comando `sudo python setup.py` 
