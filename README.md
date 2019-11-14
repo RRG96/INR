@@ -9,7 +9,7 @@ Abrir el programa Etcher, seleccionar la imagen recién descargada y a continuac
 Finalizar el proceso y esperar a que la imagen sea grabada en la memoria.
 Insertar la memoria en la ranura de la `Raspberry Pi` y conectar a alimentación*.
 
-Configuracion SSH (Opcional)
+### Configuracion SSH (Opcional)
 
 Para configurar la conexión a través de SSH, la memoria después de ser grabada deberá abrirse en una computadora con sistema operativo Ubuntu para acceder a los archivos raíz del sistema operativo.
 Entrar a la carpeta root de la memoria, en esa carpeta crear un archivo sin extensión son el nombre ssh.
