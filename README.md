@@ -2,8 +2,8 @@
 Instalar Raspbian
 
 Pasos:
-Descargar Raspbian Lite: `https://www.raspberrypi.org/downloads/raspbian/`
-Descargar programa Etcher e  instalar: `https://www.balena.io/etcher/`
+Descargar Raspbian Lite: **https://www.raspberrypi.org/downloads/raspbian/**
+Descargar programa Etcher e  instalar: **https://www.balena.io/etcher/**
 Insertar la memoria Micro SD al equipo.
 Abrir el programa Etcher, seleccionar la imagen recién descargada y a continuación seleccionar la memoria Micro SD.
 Finalizar el proceso y esperar a que la imagen sea grabada en la memoria.
@@ -20,13 +20,14 @@ Agregar los datos de la red WiFi deseada de la siguiente manera:
 	{
 		ssid="nombre-de-tu-wifi“
 		psk="password-de-tu-wifi”
-	} ```
+	}
+```
 Insertar la memoria en la ranura de la `Raspberry Pi` y conectar a alimentación.
 Entrar a la terminal de una computadora que este conectada a la misma red que se le indico a la Raspberry Pi y buscar la IP que la red le asigno.
 Si se usa un computadora con Windows se puede ocupar Wireshark.
 Si se usa una computadora con Ubuntu  utilizamos el comando `Nmap –sP`
 
-** Instalación Librerías
+## Instalación Librerías
 
 Las librerías a instalar son las siguientes:
  - MNE versión 0.17
@@ -35,7 +36,7 @@ Las librerías a instalar son las siguientes:
  - Numpy versión 1.11.0
  - Python versión 2.7.0
 
-*** Pasos:
+### Pasos:
 Verificar en la `Raspberry Pi`, que el lenguaje `Python` ya este instalado.
 Instalar el módulo git con el comando “sudo apt-get install git” o “sudo apt-get install gitpython”.
 Descargar la carpeta con el comando “sudo git clone https://github.com/RRG96/INR.git”.
@@ -44,13 +45,13 @@ Entrar en la carpeta con el comando `cd INR`.
 Correr el programa InstalacionR.py con el comando `sudo python instalacionR.py`.
 Correr el programa de Adquisicion.py con el comando `sudo python Adquiscion.py`.
 
-** Método 1 (RECOMENDADO):
+## Método 1 (RECOMENDADO):
 En la Raspberry Pi.
 Instalar MNE con el comando `sudo apt-get mne` o `sudo apt-get python-mne`.
 Instalar PyUsb con el comando `sudo apt-get pyusb`.
 Instalar mushu con el comando `sudo apt-get libmushu` o `sudo apt-get python-mushu`.
 
-** Método 2:
+## Método 2:
 Clonar cada una de las carpetas de las librerías de git con el comando `git clone https://direccionweb.git`
 - https://github.com/pyusb/pyusb.git
 - https://github.com/mne-tools/mne-python.git
@@ -59,7 +60,7 @@ Verificar que cada una de las carpetas se encuentren en la Raspberry Pi con el c
 Ingresar a cada una de las carpetas con el comando `cd nombredelacarpeta`
 Dentro de cada una de las carpetas correr el comando `sudo python setup.py` 
 
-Posibles Errores
+## Posibles Errores
 
 Los errores más comunes:
 - `comando` no se reconoce como un comando interno o externo: significa que el módulo donde se encuentra este comando no esta instalado.
